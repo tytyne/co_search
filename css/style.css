@@ -2,10 +2,11 @@
     height: 100%;
     display: flex;
     top: 0px;
+    height: 100vh;
   }
   .main-container .right {
     width: 50%;
-    /* background-color: sienna; */
+    height: 70vh;
     
   }
 
@@ -25,14 +26,39 @@
     height: 55px;
     font-size: 18px;
     background-color:#F4EFF5;
-    margin-top:30px;
-    margin-bottom: px;
+    margin-bottom: 20px;
     resize: vertical;
     display: block;
+    border:none;
   }
-  .main-container .label {
-    font-size: 20px;
-    margin:70px;
-    padding: 5px;
+  .main-container label {
+    font-size: 18px;
+    font-family:italic;
+    padding: 0px;
     display: block;
+    color:#3399FF;
+  }
+  .main-container input[type="button"] {
+    background-color:#3399FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    width:397px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .main-container .left img {
+    margin-left: 70px;
+    margin-top:-200px;
+  }
+
+  .main-container .right h2{
+      margin-top:100px;
+      margin-bottom: 50px;
+      color:#3399FF;
   }
