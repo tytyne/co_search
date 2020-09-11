@@ -1,0 +1,19 @@
+.main-container {
+    height: 100%;
+    display: flex;
+    top: 0px;
+  }
+  .main-container .right {
+    width: 50%;
+    background-color: sienna;
+    
+  }
+
+  .main-container .left {
+    width: 50%;
+    height: 100vh;
+    background-color:#F4EFF5;
+    
+    
+
+  }
