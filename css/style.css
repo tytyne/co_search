@@ -9,7 +9,9 @@
   height: 70vh;
   
 }
-
+.main-container .left .logo{
+  margin-left:-80px;
+}
 .main-container .left {
   width: 50%;
   height: 100vh;
