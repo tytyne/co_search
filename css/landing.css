@@ -1,0 +1,111 @@
+
+
+body{
+ 
+  height: 100vh;
+  background: linear-gradient(
+      212.84deg,
+      #5d38db -42.66%,
+      rgba(108, 99, 255, 0.1) 99.18%
+    ),
+    url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0;
+
+
+}
+
+
+.logo{
+  height:auto;
+  height:40px;
+  width:100px;
+  height: 60px;
+  float:left;
+}
+
+    
+/*navigation menus*/
+nav {
+  padding-top:0px;
+  width:100%;
+  background-color: white;
+ margin-top:40px;
+    
+}
+
+nav>ul {
+  text-align: right;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav ul li a {
+  box-sizing:border-box;
+  margin-left: 20px;
+  margin-right:20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color:#3399FF;
+  font-family:poppins;
+  font-size:normal;
+  Font-weight:1000;
+  position:relative;
+  font-weight: 200;
+   
+}
+
+/* Centering text over background image */
+
+#intro {
+  position: absolute;
+  width: 550px;
+  height: 120px;
+  margin-top: 5px;
+  font-weight: 700;
+  background-color: #ffffff;
+  opacity: 0.2;
+  margin-left: auto;
+  border-radius: 2px;
+}
+
+#intro1 {
+  
+  width: 500px;
+  height: 54px;
+  margin-top: 200px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  margin-left: 27px;
+  color: #f8f8f8;
+}
+
+.introduction {
+  margin-left: auto;
+  margin-top: 0px;
+  height: 10px;
+  width: 600px;
+}
+
+input[type="button"] {
+    background-color:#3399FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    width:150px;
+    height: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    font-weight: 300px;
+
+}
