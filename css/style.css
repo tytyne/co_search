@@ -61,3 +61,36 @@
     margin-bottom: 30px;
     color:#3399FF;
 }
+
+
+@media only screen and (max-width: 529px) {
+	.main-container input[type="text"],
+	.main-container input[type="button"],
+	.main-container select,
+	.main-container textarea {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+}
+
+
+@ media only screen and (max-width:529px){
+	.main-container .right h2{
+		color:purple;
+		margin-top= -30px;
+	}
+}
+@media only screen and (max-width: 529px) {
+  .main-container .right {
+    width: 100%;
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 529px) {
+  .main-container .left {
+    display: none;
+  }
+}
+
+
